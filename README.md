@@ -5,13 +5,14 @@ Small code-experiments, one-offs, playthings etc. Don't expect things here to be
 
 Copyright (C) 2013 Jan Heldal.
 All code-files herein are created and owned by:
+<pre>
  Jan Heldal
   (jan . heldal @ gmail . com)
   (http://www.linkedin.com/in/janheldal)
-  (+47) 456 62 031
+  Phone: (+47) 456 62 031
   Granlunden 7
   N4018 Stavanger, Norway.
-
+</pre>
  unless otherwise noted.
 If you find them useful, or even interesting, or you would like me to complete or modify them, I would appreciate a note.
 
