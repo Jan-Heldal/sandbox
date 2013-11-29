@@ -3,13 +3,19 @@ Jan Heldals Sandbox
 
 Small code-experiments, one-offs, playthings etc. Don't expect things here to be in working order yet.
 
-Copyright 2013 Jan Heldal.
-All code herein are created and owned by:
- Jan Heldal (jan . heldal @ gmail . com) (http://www.linkedin.com/in/janheldal)
- unless otherwise noted.
-If you find them useful, or even interesting, I would appreciate a note.
+Copyright (C) 2013 Jan Heldal.
+All code-files herein are created and owned by:
+ Jan Heldal
+  (jan . heldal @ gmail . com)
+  (http://www.linkedin.com/in/janheldal)
+  (+47) 456 62 031
+  Granlunden 7
+  N4018 Stavanger, Norway.
 
-Except where otherwise noted, all source-code herein are released under the GNU-AGPL license (http://www.gnu.org/licenses/agpl.txt).
+ unless otherwise noted.
+If you find them useful, or even interesting, or you would like me to complete or modify them, I would appreciate a note.
+
+Except where otherwise noted, all source-code herein are released under the GNU-AGPL license (http://www.gnu.org/licenses/agpl.txt). A copy of this license-text is provided in the file "COPYING.TXT".
 However, should you wish for a copy under a different license, please contact the copyright holder.
 
     This file is part of Jan Heldals Sandbox.
