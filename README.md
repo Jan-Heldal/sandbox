@@ -8,7 +8,7 @@ All code-files herein are created and owned by:
 <pre>
  Jan Heldal
   (jan . heldal @ gmail . com)
-  (http://www.linkedin.com/in/janheldal)
+  My LinkedIn profile: <a href='http://www.linkedin.com/in/janheldal'>http://www.linkedin.com/in/janheldal</a>
   Phone: (+47) 456 62 031
   Granlunden 7
   N4018 Stavanger, Norway.
@@ -17,7 +17,7 @@ All code-files herein are created and owned by:
 If you find them useful, or even interesting, or you would like me to complete or modify them, I would appreciate a note.
 
 Except where otherwise noted, all source-code herein are released under the GNU-AGPL license (http://www.gnu.org/licenses/agpl.txt). A copy of this license-text is provided in the file "COPYING.TXT".
-However, should you wish for a copy under a different license, please contact the copyright holder.
+However, should you wish for a copy under a different license, please contact me, the copyright holder.
 
     This file is part of Jan Heldals Sandbox.
 
