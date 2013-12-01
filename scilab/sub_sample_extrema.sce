@@ -1,8 +1,8 @@
 /// Looks on the two closest values on each side to determine position and value of extrema with sub-pixel accuracy, assuming no noise, using second-order interpolation.
 function [pos, val] = sub_sample_extrema(f, x)
 L = length(f(:));
-pos = list();
-val = list();
+pos = [];
+val = [];
 
 for k = 2:(L-2) do
     f1 = f(k-1);
@@ -20,9 +20,9 @@ for k = 2:(L-2) do
         f_C = f_-f__;
 // Calculates the exact position for extrema
         r = -f_C/(2*f__); // 0<=r<=1.
-        pos($+1) = x(k)+D*r;
+        pos = [pos; x(k)+D*r];
         fr = r*D* ((r-1)*f__ + f_)+f2;
-        val($+1) = fr;
+        val = [val; fr];
 // Derivative should be zero:
         // assert_checkalmostequal(0, 2*r*f__ + f_C, 2*%eps);
     end
