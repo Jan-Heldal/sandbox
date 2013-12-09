@@ -1,8 +1,15 @@
 // Testing extrema generation
 //simple test-signals
-f=[10 -20 -25 15 15 -10]';
-x=[ 2   4   8 11 12  15]';
-t = (0:.2:7)';
-s = sin(t);
-[pos, val]=sub_sample_extrema(f,x);
-plot(x,f,'-',pos,val,'o');
+
+f = [0, 10 -20 -25 15 15 -10, 0]'; x = [0 2   4   8 11 12  15  20]';
+//x = (0:.2:7)'; f = sin(t);
+[pos0, val0] = sub_sample_extrema(f,x);
+[pos, val, dfdx, idx, r] = sub_sample_extrema2(f,x);
+plot(x,f,'.-', ...
+    x, dfdx, ':', ...
+    x, 0, '--.', ...
+    x(idx).*(1-r)+x(idx+1).*r, dfdx(idx).*(1-r)+dfdx(idx+1).*r,'+', ...
+    pos,val,'o', ...
+    pos0, val0, 'd');
+assert_checktrue(r >= 0);
+assert_checktrue(r <= 1);
