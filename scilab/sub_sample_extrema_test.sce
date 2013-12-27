@@ -3,8 +3,8 @@
 
 f = [0, 10 -20 -25 15 15 -10, 0]'; x = [0 2   4   8 11 12  15  20]';
 //x = (0:.2:7)'; f = sin(t);
-[pos0, val0] = sub_sample_extrema(f,x);
-[pos, val, dfdx, idx, r] = sub_sample_extrema2(f,x);
+[pos0, val0] = sub_sample_extrema_loop(f,x);
+[pos, val, dfdx, idx, r] = sub_sample_extrema_vectorized(f,x);
 plot(x,f,'.-', ...
     x, dfdx, ':', ...
     x, 0, '--.', ...

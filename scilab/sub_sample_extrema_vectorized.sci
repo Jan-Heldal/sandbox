@@ -1,4 +1,4 @@
-function [pos, val, dfdx, idx, r] = sub_sample_extrema2(f, x)
+function [pos, val, dfdx, idx, r] = sub_sample_extrema_vectorized(f, x)
     dfdx = sparse_derivation(f,x);
     assert_checkequal(length(x), length(f));
 // Assumes extremum iff derivatives indicate zero-crossing.

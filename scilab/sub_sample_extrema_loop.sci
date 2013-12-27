@@ -1,5 +1,5 @@
 /// Looks on the two closest values on each side to determine position and value of extrema with sub-pixel accuracy, assuming no noise, using second-order interpolation.
-function [pos, val] = sub_sample_extrema(f, x)
+function [pos, val] = sub_sample_extrema_loop(f, x)
 L = length(f(:));
 pos = [];
 val = [];

@@ -1,7 +1,7 @@
 /// Looks on the two closest values on each side to determine position and value of extrema with sub-pixel accuracy, assuming no noise.
 /// Estimates f(x_k + r(x_(k+1)-r_k)) using second-order interpolation. 0<=r<=1.
 
-function [xpos, fval] = sub_sample_extrema_sharp(f, x)
+function [xpos, fval] = sub_sample_extrema_loop_sharp(f, x)
 if 0==argn(2) then
     //simple test
     f=[10 -20 -25 15 15 -10]
